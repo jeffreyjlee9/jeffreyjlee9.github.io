@@ -1,10 +1,10 @@
 function main(){
 	$('.type-it').typeIt({
-     					strings: ["generating start-up ideas . . . ",
-     						"the Fractured States of America . . . ",
+     					strings: ["entrepreneurship v. (corporate) ladder . . . ",
+     						"our generation's disruptive technologies  . . . ",
      						"why smart people pursue finance and consulting . . . ",
      						"early-stage investor fear . . . ",
-     						"our generation's disruptive technologies . . . ",
+     						"generating and validating start-up ideas . . . ",
      						"the 4 types of intelligence . . . "],
      					speed: 120,
      					deleteSpeed: 25,
