@@ -1,0 +1,114 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+header {
+	padding: 20px 0;
+}
+
+header .row,
+footer .row {
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+	font-weight: 700;
+	margin: 0;
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+header a {
+	padding: 0 20px;
+	margin: 0;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-image: 
+		linear-gradient(rgba(0,0,110,0.5), rgba(0,0,110,0.5)),
+		url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/SantoriniPartialPano.jpg/1024px-SantoriniPartialPano.jpg');
+	background-size: cover;
+	color: #ffffff;
+	height: 500px;
+}
+
+.jumbotron h2 {
+	font-size: 50px;
+	font-weight: 200;
+	margin: 0 0 20px;
+	color: #ffffff;
+}
+
+.jumbotron h3 {
+	margin: 0 0 20px;
+	color: #ffffff;
+}
+
+.btn.btn-primary {
+	border-radius: 2px;
+	border: 0px;
+	color: #fbd1d5;
+	background-color: #996515;
+}
+
+.btn.btn-primary:hover {
+	color: #ffffff;
+	background-color: #8B4513;
+}
+
+section h2 {
+	padding: 20px;
+	margin: 0 0 20px;
+}
+
+section h4 {
+	padding: 10px;
+	margin: 0 0 10px;
+}
+
+section p {
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+	margin: 0 0 25px;
+	line-height: 150%;
+}
+
+section ul {
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+}
+
+table {
+    font-family: "Arial", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+footer {
+	font-size: 12px;
+	padding: 20px 0;
+}
+
+footer .col-sm-8 {
+	display: flex;
+	justify-content: flex-end;
+}
