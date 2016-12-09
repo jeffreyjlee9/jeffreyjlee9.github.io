@@ -24,10 +24,6 @@ header h2 {
 	margin: 0px;
 }
 
-header h2:link {
-	text-decoration: none;
-}
-
 header nav {
 	display: flex;
 	justify-content: flex-end;
