@@ -1,6 +1,8 @@
 function main(){
 	$('.type-it').typeIt({
-     					strings: ["entrepreneurship v. (corporate) ladder . . . ",
+     					strings: ["the problem with tech in Singapore . . .",
+                                   "the power of studying history . . .",
+                                   "entrepreneurship v. (corporate) ladder . . . ",
      						"our generation's disruptive technologies  . . . ",
      						"why smart people pursue finance and consulting . . . ",
      						"early-stage investor fear . . . ",
